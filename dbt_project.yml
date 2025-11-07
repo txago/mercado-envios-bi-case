@@ -1,0 +1,23 @@
+name: "mercado_envios_bi"
+version: "1.0.0"
+config-version: 2
+
+profile: "mercado_envios_bi_case"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  mercado_envios_bi:
+    +materialized: table
+    staging:
+      +schema: "staging"
+    marts:
+      +schema: "marts"

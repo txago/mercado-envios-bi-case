@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: mart_inbound_kpis
+    description: "Business-ready KPIs for inbound operations monitoring"
+    columns:
+      - name: SHP_SITE_ID
+        description: "Warehouse site identifier"
+      - name: ON_TIME_FULFILLMENT_RATE_PCT
+        description: "Percentage of deliveries completed within 15 minutes of appointment"
+      - name: AVG_DELIVERY_TIME_MINUTES
+        description: "Average delay between appointment and actual arrival"
+      - name: DEMAND_SEGMENT
+        description: "Traffic segmentation (HIGH_DEMAND, MEDIUM_DEMAND, LOW_DEMAND)"
+
+  - name: mart_forecast_slots
+    description: "Demand forecasting for future slot planning and resource allocation"

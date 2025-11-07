@@ -1,0 +1,28 @@
+# Na pasta do seu projeto, crie um arquivo .gitignore
+cat > .gitignore << EOF
+# dbt
+/target/
+/dbt_packages/
+/logs/
+/profiles.yml
+
+# Arquivos de credenciais (NUNCA enviar para GitHub!)
+*.json
+*.key
+*.pem
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+*.tmp
+*.log
+
+# IDEs
+.vscode/
+.idea/
+EOF

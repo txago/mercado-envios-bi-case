@@ -1,0 +1,9 @@
+SHP_FACILITY_ID,SHP_FACILITY_TYPE,SHP_SITE_ID
+WH01,warehouse,BR-SP-CAJ
+WH02,warehouse,BR-SP-ARA
+WH03,receiving_center,BR-SP-FRA
+WH04,warehouse,BR-SP-GRU
+WH05,receiving_center,BR-MG-BET
+WH06,warehouse,BR-MG-EXT
+WH07,receiving_center,BR-SC-GOV
+WH08,warehouse,BR-BA-LAU
