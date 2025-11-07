@@ -20,7 +20,7 @@ MERCADO_ENVIOS_BI_CASE/
 ├── analyses/ # Ad-hoc analysis queries
 ├── macros/ # Reusable SQL snippets
 ├── scripts/ # Synthetic data generation scripts
-│ └── generate_synthetic_data.py
+│ └── data_simulation.py
 └── dbt_project.yml # Project configuration
 ```
 
@@ -29,7 +29,7 @@ MERCADO_ENVIOS_BI_CASE/
 1. **Generate Synthetic Data** (if needed):
 ```bash
 cd scripts
-python generate_synthetic_data.py
+python data_simulation.py
 ```
 2. **Load Seed Data**:
 ```bash
