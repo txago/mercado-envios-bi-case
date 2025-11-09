@@ -20,7 +20,7 @@ Since real order data is classified, we simulate:
 ## 🚀 Usage
 
 ```bash
-python generate_synthetic_data.py
+python data_simulation.py
 ```
 
 The script will generate 3 CSV files in the project root, which should then be moved to the seeds/ folder for dbt processing.
